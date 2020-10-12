@@ -3,11 +3,9 @@
 namespace XCPhp\base;
 
 
-use app\controllers\TestController;
-
 class View
 {
-    protected array $variables = array();
+    protected $variables = array();
     protected $_controller;
     protected $_action;
 

@@ -1,13 +1,11 @@
 <?php
 namespace XCPhp;
 
-use app\controllers\TestController;
-use Cassandra\Exception\TimeoutException;
 
 defined('CORE_PATH') or define('CORE_PATH', __DIR__);
 
 class XCPhp{
-    protected array $config;
+    protected  $config = array();
 
     public function __construct($config)
     {
